@@ -31,6 +31,7 @@ const unknownCatId = (cat_id) => {
     cat_code: `Unknown ${cat_id.slice(0, 5)}...${cat_id.slice(
       cat_id.length - 5
     )}`,
+    is_unknown: true,
   };
 };
 
